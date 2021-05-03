@@ -2,12 +2,13 @@ body{
     background-color: slategrey;
 }
 .searchContainer{
-    text-align: center;
     border: 1px solid black;
     background-color: lightgray;
     height: 4vw;
     width: 100vw;
     margin-bottom: 5px;
+    display: flex;
+    justify-content: center;
 }
 .searchContainer input{
     width: 25vw;
@@ -17,6 +18,7 @@ body{
     background-color: transparent;
     font-size: 30px;
     margin-top: 5px;
+    justify-content:
 }
 #SearchBtn{
     width: 7vw;
@@ -25,6 +27,7 @@ body{
     padding-top: 4px;
     text-align: center;
     background-color: lightcyan;
+    cursor: pointer;
 }
 .weatherContainer{
     border: 1px solid black;
@@ -33,12 +36,25 @@ body{
     display: flex;
     justify-content: center;
 }
-.weatherContentContainer{
-    
+.weatherReportContentCard{
     border: 1px solid black;
     width: 40vw;
     height: 35vw;
     background-color: red;
     margin-top: 35px;
     border-radius: 25%;
+    display: flex;
+    justify-content: center;
+}
+#Cunits{
+    border-radius: 45%;
+    cursor: pointer;
+    width: 9%;
+    background-color: powderblue;
+}
+#Funits{
+    border-radius: 45%;
+    cursor: pointer;
+    width: 9%;
+    background-color: powderblue;
 }
